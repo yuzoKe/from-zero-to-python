@@ -1,12 +1,11 @@
 # FIRST STEP
-print("---")
 print("Welcome to the task manager!")
 tasks = []
 print("Current tasks:")
 print(tasks)
 print("---")
 
-# SECOND STEP
+# SECOND STEP - Adding new tasks
 tasks = ["Study Python", "Train jiu-jitsu", "Buy groceries"]
 print("Current tasks:")
 for task in tasks:
