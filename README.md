@@ -16,4 +16,3 @@ This repository is a personal log of daily learning, small projects, and consist
 ## 📂 Structure:
 - `days/`: daily project folders
 - `LOG.md`: my learning journal
-hjfhjfhfjhf
