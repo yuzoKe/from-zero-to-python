@@ -6,7 +6,7 @@ This repository documents my personal journey of learning Python from scratch, b
 
 Before this, my only programming experience was with VBA (Excel macros). Now, I'm diving into Python with curiosity and I'm very excited.
 
-I believe the best way to learn is by practicing daily, reviewing consistently, and sharing openly — and that’s exactly what I aim to do here.
+I believe the best way to learn is by practicing daily, reviewing consistently, sharing openly and that’s exactly what I'am doing here.
 
 ---
 
