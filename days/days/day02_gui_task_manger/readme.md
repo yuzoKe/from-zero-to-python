@@ -3,11 +3,15 @@
 ## Objective  
 Upgrade the task manager into a modern graphical interface.
 
+---
+
 ## Technologies
 - Python 3.x
 - Tkinter (GUI)
 - JSON (persistence)
 - Object-Oriented Programming
+
+---
 
 ## Features
 * Intuitive graphical interfafce
@@ -17,12 +21,16 @@ Upgrade the task manager into a modern graphical interface.
 * Progress statistics
 * Modern Design
 
+---
+
 ## Concepts Learned
 * Classes and methods
 * Event-driven programming
 * Tkinter widgets
 * JSON file handling
 * Error handling
+
+---
 
 ## 🚀 How to Run
 ```bash
