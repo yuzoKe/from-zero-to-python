@@ -21,7 +21,7 @@ I believe the best way to learn is by practicing daily, reviewing consistently, 
 
 - `days/`: daily Python projects and exercises  
 - `LOG.md`: my learning journal (notes, reflections, commands, errors, learnings)  
-- `README.md`: this file — my mission and structure
+- `README.md`: this file -> my mission and structure
 
 ---
 
