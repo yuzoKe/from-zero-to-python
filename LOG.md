@@ -73,4 +73,33 @@ The best part: when I showed it to my family, they said "wow, you made that?!", 
 
 ---
 
-🟡 Day 3 — (Coming soon...)
+# 📘 Dev Log — Dia 03 (01/07/2025)
+
+## 💻 O que fiz hoje
+
+Hoje precisei sair da trilha do Python para resolver uma demanda urgente e prática da minha loja.
+
+Criei um **sistema completo de fidelidade em VBA** para o Excel, automatizando o controle de alicates trazidos por clientes. Antes, esse controle era feito manualmente com cartões físicos. Agora:
+
+- A cada 12 alicates, o sistema **aplica automaticamente R$10 de desconto**.
+- O que ultrapassa 12 **vira saldo acumulado** para o próximo pedido.
+- O sistema identifica o cliente pelo telefone e **acumula histórico automaticamente**.
+- Não é necessário cadastrar previamente — o sistema **cria ou atualiza os dados do cliente na hora**.
+
+## ⚙️ Por que isso importa
+
+Embora não tenha sido um avanço direto em Python, **foi um avanço como desenvolvedor**.
+
+Eu precisei:
+- Criar uma estrutura de dados (`Type`) em VBA.
+- Trabalhar com lógica condicional e cálculo de saldos acumulados.
+- Automatizar buscas em planilhas e criação de registros históricos.
+- Pensar em usabilidade para operadores e integração com a rotina da loja.
+
+Tudo isso me aproximou mais de conceitos de **persistência de dados, modularização e automação de tarefas**, que também fazem parte do universo do Python — só que aqui aplicados em um sistema real.
+
+## 🧠 Reflexão
+
+Hoje eu entendi que **programar não é só aprender linguagens, mas resolver problemas**. E cada vez que resolvemos um problema com código — seja em Python, VBA ou qualquer outro ambiente — estamos nos tornando programadores mais completos.
+
+**Amanhã, volto pro Python. Mas com uma nova bagagem.**

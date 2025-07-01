@@ -28,5 +28,5 @@ Create a simple command-line task manager.
 ---
 
 ## 🚀 How to run
-```bash
+```bash  
 python task_manager.py
