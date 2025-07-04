@@ -3,7 +3,7 @@ This is my personal record of daily learning. Each day includes a short summary 
 
 ---
 
-# ✅ Day 1 — Task Manager (Lists, Input/Output)
+# 📘 Dev Log - Day 1 — Task Manager (Lists, Input/Output)
 📅 Date: 27/06/2025
 📁 Project: days/day01_task_manager/task_manager.py
 
@@ -28,7 +28,7 @@ This was my first real Python script and it felt great to see a working CLI prog
 
 ---
 
-# ✅ Day 2 — GUI Task Manager (First time with Tkinter!)
+# 📘 Dev Log - Day 2 — GUI Task Manager (First time with Tkinter!)
 📅 Date: 29/06/2025
 📁 Project: days/day02_gui_task_manager/
 
@@ -73,33 +73,56 @@ The best part: when I showed it to my family, they said "wow, you made that?!", 
 
 ---
 
-# 📘 Dev Log — Dia 03 (01/07/2025)
+# 📘 Dev Log — Day 03
 
-## 💻 O que fiz hoje
+## 💻 What I did today
 
-Hoje precisei sair da trilha do Python para resolver uma demanda urgente e prática da minha loja.
+Today I had to step out of my regular Python learning routine to solve a real-world task for my store.
 
-Criei um **sistema completo de fidelidade em VBA** para o Excel, automatizando o controle de alicates trazidos por clientes. Antes, esse controle era feito manualmente com cartões físicos. Agora:
+I built a **complete loyalty system in VBA** for Excel to automatically manage loyalty discounts based on the number of cuticle nippers customers bring in. Until now, this was done manually with physical cards. Now the system:
 
-- A cada 12 alicates, o sistema **aplica automaticamente R$10 de desconto**.
-- O que ultrapassa 12 **vira saldo acumulado** para o próximo pedido.
-- O sistema identifica o cliente pelo telefone e **acumula histórico automaticamente**.
-- Não é necessário cadastrar previamente — o sistema **cria ou atualiza os dados do cliente na hora**.
+- **Applies a R$10 discount for every 12 nippers** automatically.
+- Carries over any extra nippers as balance toward the next discount.
+- Identifies the customer by phone number and **updates or creates records instantly**.
+- Automatically **logs every interaction in a historical sheet**, with no need for prior registration.
 
-## ⚙️ Por que isso importa
+## ⚙️ Why it matters
 
-Embora não tenha sido um avanço direto em Python, **foi um avanço como desenvolvedor**.
+Even though I didn’t write Python today, this was still a **big step in becoming a better developer**.
 
-Eu precisei:
-- Criar uma estrutura de dados (`Type`) em VBA.
-- Trabalhar com lógica condicional e cálculo de saldos acumulados.
-- Automatizar buscas em planilhas e criação de registros históricos.
-- Pensar em usabilidade para operadores e integração com a rotina da loja.
+I had to:
+- Create a custom data structure (`Type`) in VBA.
+- Write logic to calculate balances and conditional discounts.
+- Automate worksheet searches and dynamic data updates.
+- Think about UX and how it fits into the real workflow of my team.
 
-Tudo isso me aproximou mais de conceitos de **persistência de dados, modularização e automação de tarefas**, que também fazem parte do universo do Python — só que aqui aplicados em um sistema real.
+All of these are key developer skills — even if the syntax wasn’t Python, the mindset was.
 
-## 🧠 Reflexão
+## 🧠 Reflection
 
-Hoje eu entendi que **programar não é só aprender linguagens, mas resolver problemas**. E cada vez que resolvemos um problema com código — seja em Python, VBA ou qualquer outro ambiente — estamos nos tornando programadores mais completos.
+Today reminded me that **being a programmer is not about the language — it's about solving problems**. Whether it’s Python, VBA, or anything else, coding becomes real when it’s used to help someone or automate something that matters.
 
-**Amanhã, volto pro Python. Mas com uma nova bagagem.**
+---
+
+# 📄 Day 4 – Azure Document Intelligence (Prebuilt Receipts)
+
+Today I explored a new topic outside of core Python:  
+I used Azure AI Document Intelligence Studio to analyze and extract data from receipt images.
+
+## 🔍 What I did:
+- Created a new Azure Document Intelligence resource.
+- Uploaded a sample receipt image.
+- Used a prebuilt model to extract merchant name, date, items, and total.
+- Generated Python code to parse receipt data.
+
+## 📦 Technologies:
+- Azure Document Intelligence SDK (prebuilt model)
+- Python 3.8+
+- OCR and key-value extraction
+
+## 📁 Output:
+The model parsed structured data from a scanned receipt image and returned fields with confidence scores.
+
+## 📝 Notes:
+This exercise is based on the official Microsoft Learn path:  
+[Quickstart: Document Intelligence](https://learn.microsoft.com/azure/ai-services/document-intelligence/quickstarts/get-started-sdks-rest-api)
